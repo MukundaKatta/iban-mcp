@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MukundaKatta/iban",
+  "description": "MCP server: validate, format, and split IBAN bank account numbers.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/MukundaKatta/iban-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/MukundaKatta/iban-mcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mukundakatta/iban-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
